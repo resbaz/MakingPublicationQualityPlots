@@ -25,37 +25,4 @@ scatter(X,Y, marker) will change the marker shape.
 x= 1-d vector
 y= 1 or 2-d matrix. Each column will correspond to one group.
 
-# Line Style, Marker and Colour options
-## Line Style	Description
-\-	Solid line (default)
-
-\--	Dashed line
-
-\:	Dotted line
-
-\-.	Dash-dot line
-
-## Marker	Description
-\o	Circle
-+	Plus sign
-*	Asterisk
-.	Point
-x	Cross
-s	Square
-d	Diamond
-^	Upward-pointing triangle
-v	Downward-pointing triangle
->	Right-pointing triangle
-<	Left-pointing triangle
-p	Pentagram
-h	Hexagram
-## Color	Description
-y yellow
-m magenta
-c cyan
-r red
-g green
-b blue
-w white
-k black
-
+Line Specifications: https://au.mathworks.com/help/matlab/ref/linespec.html?searchHighlight=Line%20Style&s_tid=doc_srchtitle
