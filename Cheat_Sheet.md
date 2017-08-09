@@ -135,7 +135,10 @@ More Axis Handle Properties: https://au.mathworks.com/help/matlab/ref/figure-pro
 You can give a title, x and y labels usign the following commands
 
 title('MyTitle')
+
 xlabel('This is my x-axis')
+
 ylabel('This is my y-axis')
+
 legend('series 1', 'series 2')
 
