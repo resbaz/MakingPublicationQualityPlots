@@ -27,12 +27,12 @@ y= 1 or 2-d matrix. Each column will correspond to one group.
 
 # Line Style, Marker and Colour options
 ## Line Style	Description
--	Solid line (default)
---	Dashed line
-:	Dotted line
--.	Dash-dot line
+\-	Solid line (default)
+\--	Dashed line
+\:	Dotted line
+\-.	Dash-dot line
 ## Marker	Description
-o	Circle
+\o	Circle
 +	Plus sign
 *	Asterisk
 .	Point
