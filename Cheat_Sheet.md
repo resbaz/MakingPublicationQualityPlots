@@ -43,6 +43,7 @@ It can get quite confusing just adding line specifications using commas without 
 scatter(X,Y, 25, 'r', 'filled', 'o') etc. But there is a better way to do this using Name Value Pairs. It helps us keep track of which specification we have changed to what.
 
 scatter(X,Y, 'MarkerFaceColor', 'r', 'MarkerEdgeColor', 'r'); 
+
 Using Name-Value pairs gives us a lot more control over the various aspects of the graph.
 
 ### Name Value Pairs commonly used:
@@ -67,5 +68,25 @@ Plot Properties: https://au.mathworks.com/help/matlab/ref/chartline-properties.h
 Scatter Plot Properties: https://au.mathworks.com/help/matlab/ref/scatter-properties.html?s_tid=srchtitle
 
 Bar Plot Properties: https://au.mathworks.com/help/matlab/ref/bar-properties.html?searchHighlight=bar&s_tid=doc_srchtitle
+
+## Figure Objects.
+
+When you make a plot, you can also set an output which will make a "figure object" which will contain all the properties of the graph. 
+
+s= scatter(X,Y);
+
+Will make a figure object s, which can be thought of as a structural array that contains all the data pertaining to the figure in its many fields. We can then edit the individual properties using the structure notations.
+
+So if I want to change the marker shape to diamond, then I would do it as follows:
+
+s.Marker= 'd';
+
+You can change all the properties we discussed earlier by using the name of the property after the '.'.
+
+eg:
+
+s.LineStyle= '--';
+s.LineWidth= 2;
+
 
 
