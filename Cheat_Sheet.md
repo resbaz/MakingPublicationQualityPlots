@@ -36,7 +36,7 @@ y= 1 or 2-d matrix. Each column will correspond to one group.
 
 errorbar(X,Y,E);
 
-Will plot X and Y and will automatically make errorbars \pm E.
+Will plot X and Y and will automatically make errorbars &plusmn; E.
 
 
 <b> For more on line specification, marker specification and colour shortcuts, see:</b>
