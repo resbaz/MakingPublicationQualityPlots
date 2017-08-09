@@ -32,6 +32,13 @@ x= 1-d vector.
 
 y= 1 or 2-d matrix. Each column will correspond to one group.
 
+## Error Bars on  a line plot
+
+errorbar(X,Y,E);
+
+Will plot X and Y and will automatically make errorbars \pm E.
+
+
 <b> For more on line specification, marker specification and colour shortcuts, see:</b>
 
 https://au.mathworks.com/help/matlab/ref/linespec.html?searchHighlight=Line%20Style&s_tid=doc_srchtitle
@@ -109,8 +116,23 @@ You can get axis handles using 'gca' function which stands for "get current axis
 
 ax= gca;
 
+ax.Box = 'off'; % turns the box around the graph off.
+
+ax.Fontsize= 12; % Changes the Fontsize to 12 pts.
+
+ax.LineWidth= 2.0;
+
+ax.XLim= [0 1]; % Will only display x axis between 0 and 1.
+
+ax.YLim= [0 1]; % Will only display y axis between 0 and 1.
 
 
+## Annotating Figures
 
+You can give a title, x and y labels usign the following commands
 
+title('MyTitle')
+xlabel('This is my x-axis')
+ylabel('This is my y-axis')
+legend('series 1', 'series 2')
 
