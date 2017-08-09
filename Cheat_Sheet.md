@@ -126,6 +126,9 @@ ax.XLim= [0 1]; % Will only display x axis between 0 and 1.
 
 ax.YLim= [0 1]; % Will only display y axis between 0 and 1.
 
+More Figure Handle Properties: https://au.mathworks.com/help/matlab/ref/figure-properties.html?searchHighlight=axis%20properties&s_tid=doc_srchtitle#zmw57dd0e273556
+
+More Axis Handle Properties: https://au.mathworks.com/help/matlab/ref/figure-properties.html?searchHighlight=axis%20properties&s_tid=doc_srchtitle#zmw57dd0e273556
 
 ## Annotating Figures
 
