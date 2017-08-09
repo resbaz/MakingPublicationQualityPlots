@@ -86,7 +86,31 @@ You can change all the properties we discussed earlier by using the name of the 
 eg:
 
 s.LineStyle= '--';
+
 s.LineWidth= 2;
+
+This is handy if you want to edit properties after you have already made the plots. The plot properties are as specified in the above links.
+
+## Figure and Axis handles.
+
+These give you control over properties of the overall figure. Using the figure handles, you can change properties such as the background colour. Using the axis handle, you can change location and colour of the axis, the scale of the axes, what ticks are placed.
+
+You can get figure handle using the 'gcf' function which stands for "get current figure"
+
+fh=gcf;
+
+fh.Color= 'r'; % Sets the background colour to red.
+
+fh.Units='inches'; % Helps you specify the size of the figure in real life terms.
+
+fh.Position= [0,0,100,100]; % figure starts at 0,0 and can go to 100 points (or inches or centimeters).
+
+You can get axis handles using 'gca' function which stands for "get current axis"
+
+ax= gca;
+
+
+
 
 
 
