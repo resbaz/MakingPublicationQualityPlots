@@ -38,7 +38,10 @@ errorbar(X,Y,E);
 
 Will plot X and Y and will automatically make errorbars &plusmn; E.
 
+## Other plots
 
+plotyy - Adds secondary y-axis
+semilogx; semilogy; loglog- to add log axis.
 <b> For more on line specification, marker specification and colour shortcuts, see:</b>
 
 https://au.mathworks.com/help/matlab/ref/linespec.html?searchHighlight=Line%20Style&s_tid=doc_srchtitle
