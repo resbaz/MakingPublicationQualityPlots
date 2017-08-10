@@ -146,6 +146,8 @@ grid % Displays grid
 
 colorbar %displays colorbars
 
+gtext('text') % add annotations to figure
+
 ## Loess Smoothing
 
 https://au.mathworks.com/help/curvefit/lowess-smoothing.html
