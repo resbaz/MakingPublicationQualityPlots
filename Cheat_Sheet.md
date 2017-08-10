@@ -142,6 +142,10 @@ ylabel('This is my y-axis')
 
 legend('series 1', 'series 2')
 
+grid % Displays grid
+
+colorbar %displays colorbars
+
 ## Loess Smoothing
 
 https://au.mathworks.com/help/curvefit/lowess-smoothing.html
