@@ -148,6 +148,6 @@ https://au.mathworks.com/help/curvefit/lowess-smoothing.html
 
 Function from file-exchange: https://au.mathworks.com/matlabcentral/fileexchange/55407-loess-regression-smoothing?s_tid=srchtitle
 
-Dataviz slides: http://slides.com/errolloyd/deck-2-3
+Dataviz slides: http://slides.com/errollloyd/deck-2-3
 
 
